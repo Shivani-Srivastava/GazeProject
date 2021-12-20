@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Emozo Analysis
+# # Analysis
 
-# This file contains functions that takes Emozo[^1] outputs as inputs; cleans and processes them to yield the following: 
+# This file contains functions which cleans and processes them to yield the following: 
 # 
 # - CSV file of X,Y co-ordinates (per unit time)
 # - CSV file of Sentiments (per unit time)
@@ -14,11 +14,11 @@
 # 
 # ---
 # 
-# [^1]: https://www.emozo.ai/index.html
+# 
 
 # #### Description
 # 
-# The following code takes the raw input as given by Emozo, extracts the gaze co-ordinates according to time and user.
+# The following code takes the raw input as given, extracts the gaze co-ordinates according to time and user.
 # Essentially, one is transpose of the other.
 
 # In[1]:
